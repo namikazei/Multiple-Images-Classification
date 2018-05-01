@@ -1,0 +1,13 @@
+from os.path import join
+from glob import glob
+import os
+
+current_dir = os.getcwd()
+
+img_files = []
+
+for ext in ('*.jpg', '*.jpeg'):
+   img_files.extend(glob(join(current_dir+'/img/', ext)))
+
+for items in img_files:
+    os.system("python "+current_dir+"/classify_image.py "+ items)
