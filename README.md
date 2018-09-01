@@ -65,4 +65,4 @@ lynx, catamount - 0.055%
 ## License
 
 All files present in above folder are developed by TensorFlow authors. 
-I have just added few lines of code and modified this classification script.
+I have just added few lines of code and modified its classification script.
